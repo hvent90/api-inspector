@@ -95,9 +95,9 @@ class ApiInspectorServiceProvider extends ServiceProvider {
             'is-json' => $request->isJson(),
             'format'  => $request->format(),
             'session' => json_encode($request->session()),
-            'header'  => $request->header()
+            'header'  => $request->header(),
             'input-json' => json_encode($request->json()),
-            'wants-json' => $request->wantsJson(),
+            'wants-json' => $request->wantsJson()
         ]);
 
         return;
