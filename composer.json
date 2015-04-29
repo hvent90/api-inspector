@@ -1,6 +1,10 @@
 {
     "name": "hvent90/api-inspector",
     "description": "Streams API requests",
+    "keywords": [
+        "laravel", "5", "api", "request", "http", "inspect",
+        "inspection", "inspector", "debug"
+    ],
     "license": "MIT",
     "require": {
         "pusher/pusher-php-server": "~2.2",
