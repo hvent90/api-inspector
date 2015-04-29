@@ -11,9 +11,8 @@ ___
 
 
 ## In a Nutshell
-___
 After you [install the package](#installation), navigate with your [browser](http://isp.netscape.com/) to /api/inspect and see requests being made on your Laravel application in real time without refreshing the browser.
-***
+---
 Okay, that was the elevator shpiel. Here is the walkthrough of what is happening:
 
 `Hvent90/ApiInspector/ApiInspectorServiceProvider::boot()` intercepts the `$request` object with `$this->app[‘router’]->before([$this, ‘onBefore’]);`.
@@ -22,7 +21,6 @@ Okay, that was the elevator shpiel. Here is the walkthrough of what is happening
 
 
 ## Installation
-___
 - Add this package to your Laravel project by typing `composer require hvent90/api-inspector` in your command line.
 - Add `'Hvent90\ApiInspector\ApiInspectorServiceProvider'` to the Providers array in `config/app.php`.
 - Publish the `views` and `configuration file` for easy modifications by typing `php artisan vendor:publish` in your command line. [What does this do?](#configuration)
@@ -30,12 +28,10 @@ ___
 
 
 ## Default Usage
-___
 The URI endpoint of `api/inspect` will now load a view that streams all API requests in real time without refreshing the browser. Enjoy!
 
 
 ## Configuration
-___
 You can configure the behavior of ApiInspector via `config/api-inspector.php`.
 * `active` accepts either `true` or `false` and will enable or disable ApiInspector
 * `public`, `secret`, and `app_id` take your Pusher keys
@@ -50,6 +46,5 @@ You can locate and customize the default views found in `resources/views/vendors
 
 
 ## Pusher Info
-___
 Visit http://pusher.com for more information on the Pusher service. It is quick, easy, and awesome.
 My implementation of Pusher in this package can be understood through Jeffrey Wayes' (of Laracasts.com) great video tutorial [great video tutorial](https://laracasts.com/lessons/pusher-awesomeness)
