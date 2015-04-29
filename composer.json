@@ -1,5 +1,5 @@
 {
-    "name": "Retributor/api-inspector",
+    "name": "hvent90/api-inspector",
     "description": "Streams API requests",
     "require": {
         "pusher/pusher-php-server": "~2.2",
