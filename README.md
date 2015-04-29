@@ -23,7 +23,7 @@ Okay, that was the elevator shpiel. Here is the walkthrough of what is happening
 
 ## Installation
 ___
-Require the hvent90/api-inspector package in your composer.json.
+Require the hvent90/api-inspector package.
 
 `$ composer require hvent90/api-inspector`
 
