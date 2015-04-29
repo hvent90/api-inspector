@@ -4,12 +4,9 @@ ___
 
 ## Table of Contents
 [Installation](#installation)
-
-[Default Usage](#default-usage)
-
-[Configuration](#configuration)
-
-[Pusher Info](#pusher-info)
+  [Default Usage](#default-usage)
+  [Configuration](#configuration)
+  [Pusher Info](#pusher-info)
 
 
 ## Installation
