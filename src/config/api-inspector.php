@@ -47,6 +47,7 @@ return [
     'route-modifiers' => [
 	    // 'prefix' => '',
 	    // 'subdomain' => '',
+	    // 'middleware' => []
     ],
 
 ];
