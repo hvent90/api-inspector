@@ -23,17 +23,10 @@ Okay, that was the elevator shpiel. Here is the walkthrough of what is happening
 
 ## Installation
 ___
-Require the hvent90/api-inspector package.
-
-`$ composer require hvent90/api-inspector`
-
-Add `'Hvent90\ApiInspector\ApiInspectorServiceProvider'` to the Providers array in `config/app.php`.
-
-Publish the `views` and `configuration file` for easy modifications.
-
-`$ php artisan vendor:publish`
-
-Enter in your Pusher access keys in `config/api-inspector.php`.
+- Require the hvent90/api-inspector package by typing `composer require hvent90/api-inspector` in your command line.
+- Add `'Hvent90\ApiInspector\ApiInspectorServiceProvider'` to the Providers array in `config/app.php`.
+- Publish the `views` and `configuration file` for easy modifications by typing `php artisan vendor:publish` in your command line.
+- Enter in your Pusher access keys in `config/api-inspector.php`.
 
 
 ## Default Usage
