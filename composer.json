@@ -10,5 +10,6 @@
             "name": "Henry Ventura",
             "email": "hvent90@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability" : "dev"
 }
