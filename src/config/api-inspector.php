@@ -24,7 +24,14 @@ return [
 	|
 	| Visit https://pusher.com for more details.
 	|
-	| Enter your Pusher keys below.
+	| This package by default is searching for the keys in your
+	| .env file. I have included a snippet of code below
+	| for you to copy and paste in to your .env file
+	| if you so choose to adhere to this practice.
+	|
+    | PUSHER_PUBLIC=12345
+    | PUSHER_SECRET=123456
+    | PUSHER_APP_ID=1234567
 	|
 	*/
 	'public' => getenv('PUSHER_PUBLIC'),
