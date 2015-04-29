@@ -5,7 +5,7 @@ ___
 ___
 Require the hvent90/api-inspector package in your composer.json.
 
-`$ composer require hvent90/api-inspector @dev`
+`$ composer require hvent90/api-inspector`
 
 Add `'Hvent90\ApiInspector\ApiInspectorServiceProvider'` to the Providers array in `config/app.php`.
 
