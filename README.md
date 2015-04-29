@@ -48,5 +48,5 @@ You can locate and customize the default views found in `resources/views/vendors
 
 
 ## Pusher Info
-Visit http://pusher.com for more information on the Pusher service. It is quick, easy, and awesome.
+Visit https://pusher.com for more information on the Pusher service. It is quick, easy, and awesome.
 My implementation of Pusher in this package can be understood through Jeffrey Wayes' (of Laracasts.com) great video tutorial [great video tutorial](https://laracasts.com/lessons/pusher-awesomeness)
