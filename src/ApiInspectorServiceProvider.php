@@ -85,19 +85,19 @@ class ApiInspectorServiceProvider extends ServiceProvider {
     	}
 
         App::make('Pusher')->trigger('apiChannel', 'apiCall', [
-            'method' => $request->method(),
-            'root' => $request->root(),
-            'url' => $request->url(),
-            'path' => $request->path(),
-            'ajax' => $request->ajax(),
-            'ip' => $request->ip(),
-            'input' => $request->all(),
-            'input-json' => json_encode($request->json()),
+            'method'  => $request->method(),
+            'root'    => $request->root(),
+            'url'     => $request->url(),
+            'path'    => $request->path(),
+            'ajax'    => $request->ajax(),
+            'ip'      => $request->ip(),
+            'input'   => $request->all(),
             'is-json' => $request->isJson(),
-            'wants-json' => $request->wantsJson(),
-            'format' => $request->format(),
+            'format'  => $request->format(),
             'session' => json_encode($request->session()),
-            'header' => $request->header()
+            'header'  => $request->header()
+            'input-json' => json_encode($request->json()),
+            'wants-json' => $request->wantsJson(),
         ]);
 
         return;

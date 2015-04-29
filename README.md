@@ -9,6 +9,17 @@ ___
 - [Pusher Info](#pusher-info)
 
 
+## In a Nutshell
+___
+Go to /api/inspect and see requests being made on your Laravel application in real time without refreshing the browser.
+
+Okay, that was the elevator schpiel. Here is the walkthrough of what is happening:
+
+`Hvent90/ApiInspector/ApiInspectorServiceProvider::boot()` intercepts the `$request` object with `$this->app[‘router’]->before([$this, ‘onBefore’]);`.
+
+`Hvent90/ApiInspector/ApiInspectorServiceProvider::onBefore($request)` takes the `$request` object and, after instantiating `Pusher`, uses Pusher to feed the data directly to `hvent90/api-inspector/src/Http/views/stream.blade.php`.
+
+
 ## Installation
 ___
 Require the hvent90/api-inspector package in your composer.json.
