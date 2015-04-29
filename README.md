@@ -12,9 +12,9 @@ ___
 
 ## In a Nutshell
 ___
-Go to /api/inspect and see requests being made on your Laravel application in real time without refreshing the browser.
-
-Okay, that was the elevator schpiel. Here is the walkthrough of what is happening:
+After you [install the package](#installation), navigate with your [browser](#http://isp.netscape.com/) to /api/inspect and see requests being made on your Laravel application in real time without refreshing the browser.
+***
+Okay, that was the elevator shpiel. Here is the walkthrough of what is happening:
 
 `Hvent90/ApiInspector/ApiInspectorServiceProvider::boot()` intercepts the `$request` object with `$this->app[‘router’]->before([$this, ‘onBefore’]);`.
 
