@@ -42,6 +42,9 @@ You can configure the behavior of ApiInspector via `config/api-inspector.php`.
 * `uri` will determine what URI endpoint is associated with the route
 * `prefix` will add a prefix to the route
 * `subdomain` will add a subdomain to the route
+* `middleware` adds middleware to the route
+
+The array called `route-modifiers` is directly injected in to a (route group)[http://laravel.com/docs/5.0/routing#route-groups] that governs the API Inspector's route. You can add custom key/value pairs to the route-modifiers array to suite your application's needs.
 
 You can locate and customize the default views found in `resources/views/vendors/hvent90/api-inspector`.
 

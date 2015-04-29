@@ -47,13 +47,17 @@ return [
 	| You can customize the route endpoint
 	| for accessing the API Inspector.
 	|
+    | The array of 'route-modifiers' is directly injected in to the first argument
+    | for Route Groups (http://laravel.com/docs/5.0/routing#route-groups).
+    | You can add custom key/value pairs in this array.
+    |
 	| The default endpoint is '/api/inspect'.
 	|
 	*/
     'uri' => 'api/inspect',
     'route-modifiers' => [
 	    // 'prefix' => '',
-	    // 'subdomain' => '',
+	    // 'domain' => '',
 	    // 'middleware' => []
     ],
 
