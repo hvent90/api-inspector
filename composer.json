@@ -7,8 +7,7 @@
     ],
     "license": "MIT",
     "require": {
-        "pusher/pusher-php-server": "~2.2",
-        "laravel/framework": "~5.0"
+        "pusher/pusher-php-server": "~2.2"
     },
     "authors": [
         {
