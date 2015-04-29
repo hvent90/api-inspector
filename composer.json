@@ -1,6 +1,7 @@
 {
     "name": "hvent90/api-inspector",
     "description": "Streams API requests",
+    "license": "MIT",
     "require": {
         "pusher/pusher-php-server": "~2.2",
         "laravel/framework": "~5.0"
@@ -11,5 +12,10 @@
             "email": "hvent90@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Hvent90\\ApiInspector\\": "src/"
+        }
+    },
     "minimum-stability" : "dev"
 }
