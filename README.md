@@ -3,6 +3,7 @@ ___
 
 
 ## Table of Contents
+- [In a Nutshell](#in-a-nutshell)
 - [Installation](#installation)
 - [Default Usage](#default-usage)
 - [Configuration](#configuration)
