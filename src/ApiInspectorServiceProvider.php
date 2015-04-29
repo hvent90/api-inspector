@@ -23,6 +23,7 @@ class ApiInspectorServiceProvider extends ServiceProvider {
 		// Routes
 		$this->setupRoutes($this->app->router);
 
+		// Catch the request
 		$this->app['router']->before([$this, 'onBefore']);
 	}
 
