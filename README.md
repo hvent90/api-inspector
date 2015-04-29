@@ -12,7 +12,7 @@ ___
 
 ## In a Nutshell
 ___
-After you [install the package](#installation), navigate with your [browser](#http://isp.netscape.com/) to /api/inspect and see requests being made on your Laravel application in real time without refreshing the browser.
+After you [install the package](#installation), navigate with your [browser](http://isp.netscape.com/) to /api/inspect and see requests being made on your Laravel application in real time without refreshing the browser.
 ***
 Okay, that was the elevator shpiel. Here is the walkthrough of what is happening:
 
@@ -23,9 +23,9 @@ Okay, that was the elevator shpiel. Here is the walkthrough of what is happening
 
 ## Installation
 ___
-- Require the hvent90/api-inspector package by typing `composer require hvent90/api-inspector` in your command line.
+- Add this package to your Laravel project by typing `composer require hvent90/api-inspector` in your command line.
 - Add `'Hvent90\ApiInspector\ApiInspectorServiceProvider'` to the Providers array in `config/app.php`.
-- Publish the `views` and `configuration file` for easy modifications by typing `php artisan vendor:publish` in your command line.
+- Publish the `views` and `configuration file` for easy modifications by typing `php artisan vendor:publish` in your command line. [What does this do?](#configuration)
 - Enter in your Pusher access keys in `config/api-inspector.php`.
 
 
