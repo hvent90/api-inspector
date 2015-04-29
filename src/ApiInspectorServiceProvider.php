@@ -51,7 +51,7 @@ class ApiInspectorServiceProvider extends ServiceProvider {
          /** @var \Illuminate\Http\Request $request */
         $request = $this->app['request'];
 
-        $this->app->singleton('Hvent90\ApiInspectorServiceProvider', function($app)
+        $this->app->singleton('Hvent90\ApiInspector\ApiInspectorServiceProvider', function($app)
         {
             return new Connection($app['config']['api-inspector']);
         });
