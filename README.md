@@ -11,7 +11,7 @@ Add `Hvent90/ApiInspector/ApiInspectorServiceProvider` to the Providers array in
 
 Publish the `views` and `configuration file` for easy modifications.
 
-`php artisan vendor:publish`
+`$ php artisan vendor:publish`
 
 Enter in your Pusher access keys in `config/api-inspector.php`.
 
