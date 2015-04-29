@@ -17,7 +17,7 @@ class ApiInspectorServiceProvider extends ServiceProvider {
 		// Views
 		$this->loadViewsFrom(realpath(__DIR__.'/resources/views'), 'api-inspector');
 		$this->publishes([
-	        __DIR__.'/resources/views' => base_path('resources/views/vendor/hvent90/api-inspector'),
+	        __DIR__.'/resources/views' => base_path('resources/views/vendor/api-inspector'),
 	    ]);
 
 		// Routes
