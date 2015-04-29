@@ -1,4 +1,4 @@
-# Real time streaming API Inspector for Laravel 5 with Pusher.
+# Real time streaming API Inspector for Laravel with Pusher.
 ___
 
 
