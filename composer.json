@@ -1,0 +1,14 @@
+{
+    "name": "Retributor/api-inspector",
+    "description": "Streams API requests",
+    "require": {
+        "pusher/pusher-php-server": "~2.2",
+        "laravel/framework": "~5.0"
+    },
+    "authors": [
+        {
+            "name": "Henry Ventura",
+            "email": "hvent90@gmail.com"
+        }
+    ]
+}
